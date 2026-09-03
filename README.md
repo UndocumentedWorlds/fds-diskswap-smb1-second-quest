@@ -29,7 +29,7 @@ because of the warm boot check at `$07FF`.
 ### Payload
 
 21 bytes, written in 232 frames using the shift-write primitive from
-[#4709S](https://tasvideos.org/4709S).
+[submission 4709S](https://tasvideos.org/4709S)
 
 ```
 $06C3:  A9 01     LDA #$01
@@ -90,7 +90,7 @@ ROMs are not distributed.
 ```
 Zelda no Densetsu - The Hyrule Fantasy (Japan) (v1.0)
   SHA1 135AC9CBDF3983AA77D7581B26D685D02615D36A
-Super Mario Brothers (Japan) [FDS]
+Super Mario Bros. (Japan) [FDS]
   SHA1 383AD8E3890A95DE9595F0A6087648F51177DA13
 FDS BIOS (disksys.rom)
   SHA1 57FE1BDEE955BB48D357E463CCBF129496930B62
@@ -108,7 +108,7 @@ the BIOS obtained during the normal load and passes it through.
 ## Unfinished
 
 Connecting this setup to the SMB1 game end glitch
-([#10297S](https://tasvideos.org/10297S)) does not work yet. Skipping the
+[submission 10297S](https://tasvideos.org/10297S) does not work yet. Skipping the
 first quest changes the RNG state, and the Buzzy Beetle needed to load the
 second Bowser walks the wrong way. Ideas are welcome.
 
