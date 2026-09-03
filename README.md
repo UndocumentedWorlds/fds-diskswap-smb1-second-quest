@@ -20,6 +20,12 @@ Writing `$07FC = $01` and `$07FF = $A5` from Zelda therefore gives, on a
 fresh power-on, both the second quest and the ability to jump straight to
 World 8.
 
+The `$07FC` → `$076A` copy itself is already documented; there are ROM
+patches and Game Genie codes that target it. Those modify the ROM,
+though. What is different here is doing it without touching the ROM at
+all: the byte is written into RAM from another game, and it survives
+because of the warm boot check at `$07FF`.
+
 ### Payload
 
 21 bytes, written in 232 frames using the shift-write primitive from
