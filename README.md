@@ -5,7 +5,7 @@ A TAS that performs arbitrary code execution in *The Legend of Zelda*
 RAM, and swaps the disk for *Super Mario Bros.* That byte makes SMB1
 behave as if the game had already been beaten once.
 
-Video: <YouTube link>
+Video: [<YouTube link>](https://www.youtube.com/watch?v=IosRrQcMf8Y)
 
 ## How it works
 
